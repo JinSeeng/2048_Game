@@ -34,5 +34,5 @@ Ce projet est une version du célèbre jeu 2048 que j'ai développée dans mon t
 ## Mes idées pour améliorer ce projet
 - Enregistrer le meilleur score du joueur (pour garder une trace des meilleures parties)
 - Permettre la sauvegarde et la reprise d'une partie en cours 
-- Créer un mode "thème sombre"
+- Créer un mode "thème sombre" [En cours]
 - Améliorer les animations des tuiles et/ou les rendre personnalisables
