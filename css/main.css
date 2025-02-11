@@ -37,3 +37,50 @@ h1 {
 #reset:hover {
     background-color: #9c8b77;
 }
+
+#themeToggle {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #f9f6f2;
+    background-color: #8f7a66;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#themeToggle:hover {
+    background-color: #9c8b77;
+}
+
+/* Styles pour le thème sombre */
+.dark-theme {
+    background-color: #36393f; 
+    color: #ffffff; 
+}
+
+.dark-theme h1 {
+    color: #ffffff;
+}
+
+.dark-theme .score-container {
+    color: #ffffff;
+}
+
+.dark-theme #reset {
+    background-color: #7289da; 
+    color: #ffffff;
+}
+
+.dark-theme #reset:hover {
+    background-color: #677bc4;
+}
+
+.dark-theme #themeToggle {
+    background-color: #7289da;
+    color: #ffffff; 
+}    
+
+.dark-theme #themeToggle:hover {
+    background-color: #677bc4;
+}

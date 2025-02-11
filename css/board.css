@@ -18,3 +18,13 @@
     color: #776e65;
     border-radius: 5px;
 }
+
+/* Styles pour le thème sombre */
+.dark-theme #board {
+    background-color: #2f3136;
+}
+
+.dark-theme .tile {
+    background-color: #40444b;
+    color: #ffffff;
+}

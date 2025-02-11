@@ -44,3 +44,30 @@
 #playAgain:hover {
     background-color: #9c8b77;
 }
+
+/* Styles pour le thème sombre */
+.dark-theme .modal {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.dark-theme .modal-content {
+    background-color: #2f3136; 
+    color: #ffffff; 
+}
+
+.dark-theme .modal-content h2 {
+    color: #ffffff; 
+}
+
+.dark-theme .modal-content p {
+    color: #ffffff; 
+}
+
+.dark-theme #playAgain {
+    background-color: #7289da; 
+    color: #ffffff; 
+}
+
+.dark-theme #playAgain:hover {
+    background-color: #677bc4; 
+}

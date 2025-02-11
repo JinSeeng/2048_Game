@@ -10,6 +10,9 @@ document.addEventListener('DOMContentLoaded', () => {
         hideGameOverModal();
         initializeGame();
     });
+
+    const themeToggle = document.getElementById('themeToggle');
+    themeToggle.addEventListener('click', toggleTheme);
 });
 
 function initializeGame() {
@@ -207,4 +210,16 @@ function showGameOverModal() {
 function hideGameOverModal() {
     const modal = document.getElementById('gameOverModal');
     modal.style.display = 'none';
+}
+
+// Fonction pour switcher thème clair/sombre
+function toggleTheme() {
+    const body = document.body;
+    body.classList.toggle('dark-theme');
+    const themeToggle = document.getElementById('themeToggle');
+    if (body.classList.contains('dark-theme')) {
+        themeToggle.textContent = 'Thème Clair';
+    } else {
+        themeToggle.textContent = 'Thème Sombre';
+    }
 }
