@@ -3,6 +3,9 @@
 ## Présentation du projet
 Ce projet est une version du célèbre jeu 2048 que j'ai développée dans mon temps libre. Il s'agit d'une simple page web utilisant HTML, CSS et JavaScript, avec une gestion des déplacements, des fusions de tuiles et du calcul du score.
 
+## Accès au jeu
+Le jeu est accessible à l'adresse suivante : [https://sellianade.alwaysdata.net/2048_game](http://sellianade.alwaysdata.net/2048_game/)
+
 ## Fonctionnalités et commandes du jeu
 - **Mouvements** : Utilisez les **flèches du clavier** pour déplacer les tuiles.
 - **Fusion** : Les tuiles de même valeur fusionnent lorsqu'elles se rencontrent.
